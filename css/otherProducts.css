@@ -1,0 +1,87 @@
+.other-products {
+  background-color: var(--orange-2);
+  position: relative;
+}
+
+.other-products h2 {
+  color: var(--white);
+  font-size: 1.75rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 4.2px;
+  text-align: center;
+  padding: 2.5rem;
+}
+
+.slide {
+  display: flex;
+  overflow: hidden;
+  max-width: 50%;
+  margin: 0 auto;
+  border-radius: 0.5rem;
+}
+
+.slide a {
+  flex-basis: 100%;
+  flex-shrink: 0;
+}
+
+.slide-btn {
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--grey-1);
+  border: none;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.prev-slide-btn {
+  left: 26%;
+  top: 52%;
+}
+
+.prev-slide-btn::after {
+  content: '';
+  display: block;
+  width: 10px;
+  height: 16px;
+  background: url('../assets/seta-esquerda.svg') no-repeat;
+}
+
+.next-slide-btn {
+  right: 26%;
+  top: 52%;
+}
+
+.next-slide-btn::after {
+  content: '';
+  display: block;
+  width: 10px;
+  height: 16px;
+  background: url('../assets/seta-direita.svg') no-repeat;
+}
+
+.slide-count {
+  position: absolute;
+  bottom: 0.5rem;
+  transform: translateX(-50%);
+  left: 50%;
+  display: flex;
+  gap: 2rem;
+}
+
+.slide-count button {
+  width: 2.25rem;
+  border: none;
+  border-radius: 8px;
+  background: var(--grey-1);
+  height: 4px;
+}
+
+.slide-count button.active {
+  background: var(--orange-2);
+}

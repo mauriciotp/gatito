@@ -1,0 +1,30 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.footer-logo {
+  width: 2rem;
+}
+
+.footer-logo p {
+  text-transform: uppercase;
+  color: var(--red-1);
+}
+
+.footer nav {
+  display: flex;
+  gap: 3.75rem;
+}
+
+.footer nav a {
+  color: var(--red-1);
+}

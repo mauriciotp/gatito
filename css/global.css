@@ -1,0 +1,13 @@
+:root {
+  --white: #ffffff;
+  --red-1: #f5989d;
+  --orange-1: #ffc4b2;
+  --orange-2: #f69679;
+  --orange-3: #ffc4b2ab;
+  --grey-1: #808080;
+}
+
+.container {
+  max-width: 1366px;
+  margin: 0 auto;
+}
